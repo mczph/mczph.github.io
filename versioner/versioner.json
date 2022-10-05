@@ -38,8 +38,8 @@
         {
             "category": "osmium",
             "displayName": "锇",
-            "titleFormat": ["BLUE", "BOLD"],
-            "sponsorFormat": ["BLUE"],
+            "titleFormat": ["AQUA", "BOLD"],
+            "sponsorFormat": ["AQUA"],
             "sponsors": [
                 {
                     "name": "test",
@@ -54,8 +54,8 @@
         {
             "category": "vibranium",
             "displayName": "振金",
-            "titleFormat": ["YELLOW", "BOLD"],
-            "sponsorFormat": ["YELLOW"],
+            "titleFormat": ["GOLD", "BOLD"],
+            "sponsorFormat": ["GOLD"],
             "sponsors": [
                 {
                     "name": "test",
