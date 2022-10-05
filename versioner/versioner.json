@@ -6,8 +6,8 @@
         {
             "category": "iron",
             "displayName": "铁",
-            "titleFormat": ["WHITE", "BOLD"],
-            "sponsorFormat": ["WHITE"],
+            "titleFormat": ["GREEN", "BOLD"],
+            "sponsorFormat": ["GREEN"],
             "sponsors": [
                 {
                     "name": "test",
