@@ -2,87 +2,161 @@
 	"versionName": "1.19",       
 	"versionCode": 1,          
 	"versionFormat": "%versionName%",    
-	"sponsors": [{              
-			"category": "gold",
-	                "displayName": "sponsors.test",       
-			"titleFormat": ["GOLD", "BOLD"],      
-			"sponsorFormat": ["GOLD"],
-			"sponsors": [{
-					"name": "TCreopargh",
-					"uuid": "2d06868c-6d9b-433a-a356-1a7993b62b8d"         
-				},
-				{
-					"name": "Notch"
-				},
-				"Dinnerbone"        
-			]
-		},
-		{
-			"category": "diamond",
-			"titleFormat": ["AQUA", "BOLD"],
-			"sponsorFormat": ["AQUA"],
-			"sponsors": [{
-				"name": "Herobrine"
-			}]
-		}
-	],
-	"sponsorMessage": ["", {                       
-		"text": "Thank all of you for sponsoring!",
-		"color": "gold"
-	}, {
-		"text": "\n"
-	}, {
-		"text": "Become a sponsor!",
-		"color": "red",
-		"bold": true,
-		"underlined": true,
-		"clickEvent": {
-			"action": "open_url",
-			"value": "http://patreon.tcreopargh.xyz/"
-		}
-	}],
-	"changelogs": {
-		"1.2.0": [
-			"Fixed some more bugs",
-			"Removed Herobrine",
-			"Fixed the version number being too low"
-		],
-		"1.1.0": [
-			"Fixed some bugs"
-		]
-	},
-	"variables": {                  
-		"testInt": 1000,
-		"testString": "abcde",
-		"testArray": [
-			1,
-			2,
-			3
-		],
-		"testData": {
-			"a": [
-				"111",
-				"222",
-				"333"
-			]
-		}
-	},
-	"welcomeMessage": ["", {            
-		"text": "Hello, welcome to play ",
-		"color": "gold"
-	}, {
-		"text": "TestPack!",
-		"color": "aqua"
-	}, {
-		"text": "\n"
-	}, {
-		"text": "Join our discord server!",
-		"bold": true,
-		"underlined": true,
-		"color": "blue",
-		"clickEvent": {
-			"action": "open_url",
-			"value": "https://discord.gg/WbrB4VaUsz"
-		}
-	}]
+	    "sponsors": [
+        {
+            "category": "iron",
+            "displayName": "铁",
+            "titleFormat": ["WHITE", "BOLD"],
+            "sponsorFormat": ["WHITE"],
+            "sponsors": [
+                {
+                    "name": "test",
+                    "uuid": "test"
+                },
+                {
+                    "name": "test",
+                    "uuid": "test"
+                }
+            ]
+        },
+        {
+            "category": "titanium",
+            "displayName": "钛",
+            "titleFormat": ["RED", "BOLD"],
+            "sponsorFormat": ["RED"],
+            "sponsors": [
+                {
+                    "name": "test",
+                    "uuid": "test"
+                },
+		        {
+                    "name": "test",
+                    "uuid": "test"
+		        }
+            ]
+        },
+        {
+            "category": "osmium",
+            "displayName": "锇",
+            "titleFormat": ["BLUE", "BOLD"],
+            "sponsorFormat": ["BLUE"],
+            "sponsors": [
+                {
+                    "name": "test",
+                    "uuid": "test"
+                },
+                {
+                    "name": "test",
+                    "uuid": "test"
+                }
+            ]
+        },
+        {
+            "category": "vibranium",
+            "displayName": "振金",
+            "titleFormat": ["YELLOW", "BOLD"],
+            "sponsorFormat": ["YELLOW"],
+            "sponsors": [
+                {
+                    "name": "test",
+                    "uuid": "test"
+                },
+		        {
+                    "name": "test",
+                    "uuid": "test"
+		        }
+            ]
+        },
+        {
+            "category": "infinity",
+            "displayName": "无尽",
+            "titleFormat": ["PURPLE", "BOLD"],
+            "sponsorFormat": ["PURPLE"],
+            "sponsors": [
+                {
+                    "name": "test",
+                    "uuid": "test"
+                },
+		        {
+                    "name": "test",
+                    "uuid": "test"
+		        }
+            ]
+        },
+        {
+            "category": "creator",
+            "displayName": "作者",
+            "titleFormat": ["LIGHT_PURPLE", "BOLD"],
+            "sponsorFormat": ["LIGHT_PURPLE"],
+            "sponsors": [
+                {
+                    "name": "mczph",
+                    "uuid": "b5cce1d2-6046-413b-a7a3-223247ba36c6"
+                }
+            ]
+        }
+    ],
+    "sponsorMessage": [
+        "",
+        {
+            "text": "您的赞助是我创作的动力，感谢赞助！",
+            "color": "gold"
+        },
+        {
+            "text": "\n"
+        },
+        {
+            "text": "成为赞助者！",
+            "color": "red",
+            "bold": true,
+            "underlined": true,
+            "clickEvent": {
+                "action": "open_url",
+                "value": "https://afdian.net/a/mczph"
+            }
+        }
+    ],
+    "changelogs": {
+        "1.19": [
+            "Mod更新",
+            "Bug修复"
+        ],
+        "1.0": [
+            "Added new mod: Versioner",
+            "Fixed some bugs",
+            "Fixed the version number being too low"
+        ]
+    },
+    "variables": {
+        "versionGroup": 0
+    },
+    "welcomeMessage": [
+        "",
+        {
+            "text": "欢迎游玩",
+            "color": "gold"
+        },
+        {
+            "text": "交汇整合包",
+            "bold": true,
+            "color": "aqua"
+        },
+        {
+            "text": "！",
+            "color": "gold"
+        },
+        {
+            "text": "\n"
+        },
+        {
+            "text": "加入我们的qq群！",
+            "bold": true,
+            "underlined": true,
+            "color": "blue",
+            "clickEvent": {
+                "action": "open_url",
+                "value": "https://qm.qq.com/cgi-bin/qm/qr?k=vkYy37SR8T_92BEcyaMLoT9Iny2BucFo&jump_from=webapi&authKey=jnm7gj1Klq+yo9NGS2V7FjS2l4uS3By0P0ZWG4Vh0f9Y5mpX9HGOMhWmm1MKcdNp"
+            }
+        }
+    ]
 }
