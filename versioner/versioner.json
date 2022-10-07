@@ -1,6 +1,6 @@
 {
-	"versionName": "1.19",       
-	"versionCode": 1,          
+	"versionName": "1.19.1",       
+	"versionCode": 2,          
 	"versionFormat": "%versionName%",    
 	    "sponsors": [
         {
@@ -129,34 +129,5 @@
     },
     "variables": {
         "versionGroup": 0
-    },
-    "welcomeMessage": [
-        "",
-        {
-            "text": "欢迎游玩",
-            "color": "gold"
-        },
-        {
-            "text": "交汇整合包",
-            "bold": true,
-            "color": "aqua"
-        },
-        {
-            "text": "！",
-            "color": "gold"
-        },
-        {
-            "text": "\n"
-        },
-        {
-            "text": "加入我们的qq群！",
-            "bold": true,
-            "underlined": true,
-            "color": "blue",
-            "clickEvent": {
-                "action": "open_url",
-                "value": "https://qm.qq.com/cgi-bin/qm/qr?k=vkYy37SR8T_92BEcyaMLoT9Iny2BucFo&jump_from=webapi&authKey=jnm7gj1Klq+yo9NGS2V7FjS2l4uS3By0P0ZWG4Vh0f9Y5mpX9HGOMhWmm1MKcdNp"
-            }
-        }
-    ]
+    }
 }
