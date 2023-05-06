@@ -2,6 +2,8 @@
 
 ![mczph](https://count.getloli.com/get/@mczph?theme=gelbooru)
 
+[English](https://mczph.github.io/mczph)
+
 我是mczph，目前14岁，深圳人，初中生。
 
 模组向/整合包MC玩家。
